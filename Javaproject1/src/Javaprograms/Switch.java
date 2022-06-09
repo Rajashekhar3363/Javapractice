@@ -1,6 +1,6 @@
 package Javaprograms;
 
-import java.util.Scanner;
+
 
 public class Switch {
 
