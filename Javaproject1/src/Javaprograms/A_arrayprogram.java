@@ -18,9 +18,9 @@ public static void main(String[] args)
 		b=sc.nextInt();
 		a[i]=b;
 	}
-		System.out.println("Enter the Required Index are:");
-		int id=sc.nextInt();
-		System.out.println("The value of index is:"+a[id]);		
+	System.out.println("Enter the Required Index are:");
+	int id=sc.nextInt();
+	System.out.println("The value of index is:"+a[id]);		
 		
 	}
 	}
