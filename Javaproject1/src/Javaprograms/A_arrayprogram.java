@@ -20,10 +20,8 @@ public static void main(String[] args)
 	}
 	System.out.println("Enter the Required Index are:");
 	int id=sc.nextInt();
-	System.out.println("The value of index is:"+a[id]);		
-	//branch1 created
-	//branch1 created2
-	//branch 3
+	System.out.println("The value of index is:"+a[id]);//1		
+	
 	}
 	}
 
