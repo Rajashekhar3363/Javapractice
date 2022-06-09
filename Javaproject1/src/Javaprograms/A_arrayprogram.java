@@ -22,6 +22,7 @@ public static void main(String[] args)
 	int id=sc.nextInt();
 	System.out.println("The value of index is:"+a[id]);		
 	//branch1 created
+	//branch1 created2
 	}
 	}
 
