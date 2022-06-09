@@ -21,11 +21,12 @@ public static void main(String[] args)
 	System.out.println("Enter the Required Index are:");
 	int id=sc.nextInt();
 	System.out.println("The value of index is:"+a[id]);		
-	//Pulledthis
+	 // Pulled this
 	//next i am commit this to project
-	//Error find in this
-	//next create branch
-	//dont write unnessasary comments
+   //Error find in this
+  //next create branch
+	//created branch once check in repo
+	
 	}
 	}
 
