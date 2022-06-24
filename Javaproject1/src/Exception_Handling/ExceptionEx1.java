@@ -6,6 +6,7 @@ public class ExceptionEx1 {
 	{
 		
 	System.out.println();
+	
 	}
 
 }
