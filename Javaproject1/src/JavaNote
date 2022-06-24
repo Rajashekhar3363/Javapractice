@@ -1,0 +1,223 @@
+13thJun
+
+14thJun
+
+
+15thJun
+---------------------------
+1.explore this keyword and try to explore what are usage of this keyword
+write different coding examples for this keyword
+2.explore what is aggregation in java ? write 3 ream time and 3 coding examples
+
+16thJun
+--------------------------------
+1.Try to explore what is polymorphism
+2.Try to explore method overloading and write 3 real time + 3 coding examples
+3.Try to explore method overriding and write 3 real time + 3 coding examples
+4.Try to explore what is the difference between method overloading and method overriding
+5.Try to explore what is the difference between Abstraction and encapsulation
+---------------------------------
+
+Polymorphism: many 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17/06/2022 
+
+1.Try to explore Abstraction and concepts of Abstraction (Abstract class and Interface)
+2.Write 3 real time examples of Abstraction
+3.Write 3 coding examples using Abstract class
+4.Write 3 coding examples using Interface
+5.Try to explore encapsulation and getter,setter methods
+6.Write 3 coding examples using getter,setter methods
+7.Try different ways to achieve OOPS concepts
+8.Try to explore access modifiers and try to achieve as mentioned in the topicsWeCovered file?
+
+
+
+
+Abtraction:
+Hiding internal implimentation, just highlite the what they offering.
+Parstial implimented class.
+An abstract class must be declared with an abstract keyword.
+It can have abstract and non-abstract methods.
+It cannot be instantiated.
+It can have constructors and static methods also.
+It can have final methods which will force the subclass not to change the body of the method
+1)security is biggest Advantage
+2)Enhancement
+
+3 real time Ex for abtraction:
+1)E-mail is abstract the data with ou give any user password 
+2)In ATM with out pin we cant take money
+3)
+
+
+
+Encapsulation:
+Data Hiding + Abstraction is Encapsulation 
+We can create a fully encapsulated class in Java by making all 
+the data members of the class private.
+out side person should not access our internal data Directly.
+some sort of authontification required.
+By declaring some data member is Private then other persons not access this method.
+
+3 real time Examples :
+
+1) In mobile finger print access, face access 
+2) Banks and Atms
+in this we can use Private has 
+In Encapsulation We have 2 methods
+get method
+set method
+package Arrayspractics;
+
+ class Account          // Encapsulation Example1
+{
+	private int act_no;
+	private String name;
+	private String Branch;
+	private long balance;
+	private String branch_name;
+	
+	public int getactno()
+	{
+		return act_no;
+	}
+	
+	public String getname()
+	{
+		return name;
+	}
+	
+	public String getBranch()
+	{
+		return Branch;
+	}
+	public long getbalance()
+	{
+		return balance;
+	}
+	public String gbranchname()
+	{
+		return branch_name;
+	}
+	
+	public void saccountno(int act_no)
+	{
+		this.act_no=act_no;
+	}
+	public void sname(String name)
+	{
+		this.name=name;
+	}
+	public void sbranch(String Branch)
+	{
+		this.Branch=Branch;
+	}
+	public void sbalance(long balance)
+	{
+		this.balance=balance;
+	}
+	public void sbalance(String  branch_name)
+	{
+		this.branch_name=branch_name;
+	}
+
+	public class EncapsulationAccountparentEx1
+	{
+		public static void main(String[] args) 
+		{
+			Account acc=new Account();
+			acc.saccountno(1555);
+			acc.sname("Pawan");
+			acc.sbranch("CHPDL");
+			acc.sbalance(50000);
+			System.out.println("the Bank Account no is"+acc.getClass());
+			System.out.println("the Bank Account no is"+acc.getactno());
+			System.out.println("the Bank Account no is"+acc.getname());
+			System.out.println("the Bank Account no is"+acc.getBranch());
+			System.out.println("the Bank Account no is"+acc.getbalance());
+			
+			
+		}
+
+	}
+}
+
+Interface:
+Implements keyword
+
+
+DATE:
+20/06/2022
+
+Exception Handling:
+with try catch block  we can handle the code exception handle.
+in try block write risk code 
+and catch block write exception handle code or any other code .
+try
+{
+risk code
+}
+catch(Exceptionhandling Obj)
+{
+//handling code
+}
+
+
+Multycatch blocks handling:
+
+Here we can write Multy catch blocks
+try
+{
+risk code
+}
+catch(Exceptionhandling Obj)
+{
+//handling code
+}
+catch(Exceptionhandling Obj)// above catch block not satisfied then excute this catch block
+{
+//handling code
+}
+
+
+
+Exception Handling:
+
+Exception:
+Unexpected event can distrub the flow of program will get exception.
+
+Exception Handling :
+Donot distrub the flow of program flow when Exception occures so need to Handle the Exception.
+it is called Exception Handling in this we use try catch block.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

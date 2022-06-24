@@ -9,22 +9,19 @@ public class Largest_array {
 		Scanner sc=new Scanner(System.in);
 		
 		int a[]= {56,16,3,0,27};
-		int max=0;
+		int large=0;
 		int min=1;
 		 System.out.println(" The values of Arrayas are");
-		   for(int j=0;j<5;j++)
+		   for(int j=0;j<a.length;j++)
 		   {
-			   if(a[j]>max)
+			   if(a[j]>large)
 			  {
-			   max=a[j];
+			   large=a[j];
 			  }
-			   else if(a[j]<min)
-			   {
-				  min=a[j]; 
-			   }  
-			   System.out.println(a[j]);
+			   
+			  
 	}  
-			   System.out.println("Largest value is: "+max);
-			   System.out.println("Largest value is: "+min);
+			   System.out.println("Largest value is: "+large);
+			 
 	}	
 	}
