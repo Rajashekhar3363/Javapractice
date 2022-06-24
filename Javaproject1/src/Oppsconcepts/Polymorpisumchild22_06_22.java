@@ -15,7 +15,7 @@ public class Polymorpisumchild22_06_22 extends PolymorpisumParent22_06_22
 		p.Overload(550, 500, 600);
 		p.Overload(55, 70); 
 		p.Overload(50,"RAM");
-		p.Ex1(3, 3, 3);
+		p.Ex1(2);
 		
 	}
 

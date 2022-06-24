@@ -1,5 +1,5 @@
 package Oppsconcepts;
-lkpackage Arrayspractics;
+
 
 public class Overridingparentclass 
 {
